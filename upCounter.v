@@ -1,3 +1,11 @@
+//////////////////////////////////////////////////////////////////////////////////
+// Engineer: Demetri Kostas
+// Create Date: 11/22/2024 02:15:19 PM
+// Module Name: upCounter
+// Project Name: Multiplier
+// Revision:
+// Revision 0.01 - File Created
+//////////////////////////////////////////////////////////////////////////////////
 module upCounter(clk, reset, count_val, bcd_en);
     input clk, reset, bcd_en;
     output reg[11:0] count_val;
