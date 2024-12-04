@@ -1,3 +1,11 @@
+//////////////////////////////////////////////////////////////////////////////////
+// Engineer: Demetri Kostas
+// Create Date: 11/22/2024 02:15:19 PM
+// Module Name: Mux_4to1_case
+// Project Name: Multiplier
+// Revision:
+// Revision 0.01 - File Created
+//////////////////////////////////////////////////////////////////////////////////
 module Mux_4to1_case(s, i0, i1, i2, i3, o);
 	input wire [3:0] s, i0, i1, i2, i3;
 	output reg [3:0] o;
