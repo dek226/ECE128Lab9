@@ -1,3 +1,11 @@
+//////////////////////////////////////////////////////////////////////////////////
+// Engineer: Demetri Kostas
+// Create Date: 11/22/2024 02:15:19 PM
+// Module Name: refresh_counter
+// Project Name: Multiplier
+// Revision:
+// Revision 0.01 - File Created
+//////////////////////////////////////////////////////////////////////////////////
 module refresh_counter(clk, o_q); //edit, might work 100%
 	input wire clk;
 	output reg [1:0] o_q = 0;
