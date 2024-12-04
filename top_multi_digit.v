@@ -1,3 +1,11 @@
+//////////////////////////////////////////////////////////////////////////////////
+// Engineer: Demetri Kostas
+// Create Date: 11/22/2024 02:15:19 PM
+// Module Name: top_multi_digit
+// Project Name: Multiplier
+// Revision:
+// Revision 0.01 - File Created
+//////////////////////////////////////////////////////////////////////////////////
 module top_multi_digit(clk, rst, a, b, seg_cathode, seg_anode_o); //edit
 	input wire clk, rst;
 	input [3:0] a;
