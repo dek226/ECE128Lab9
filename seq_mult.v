@@ -1,25 +1,11 @@
-`timescale 1ns / 1ps
 //////////////////////////////////////////////////////////////////////////////////
-// Company: 
-// Engineer: 
-// 
-// Create Date: 12/03/2024 12:19:17 AM
-// Design Name: 
-// Module Name: project_9
-// Project Name: 
-// Target Devices: 
-// Tool Versions: 
-// Description: 
-// 
-// Dependencies: 
-// 
+// Engineer: Demetri Kostas
+// Create Date: 11/22/2024 02:15:19 PM
+// Module Name: seq_mult
+// Project Name: Multiplier
 // Revision:
 // Revision 0.01 - File Created
-// Additional Comments:
-// 
 //////////////////////////////////////////////////////////////////////////////////
-
-
 module seq_mult(clk, rst, a, b, o);
     input clk;
     input rst;
