@@ -1,3 +1,11 @@
+//////////////////////////////////////////////////////////////////////////////////
+// Engineer: Demetri Kostas
+// Create Date: 11/22/2024 02:15:19 PM
+// Module Name: shift_register
+// Project Name: Multiplier
+// Revision:
+// Revision 0.01 - File Created
+//////////////////////////////////////////////////////////////////////////////////
 module shift_register(count, mux); //edit might not work 100%
 	input wire [1:0] count;
 	output reg [3:0] mux;
