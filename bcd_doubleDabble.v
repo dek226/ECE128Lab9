@@ -1,3 +1,11 @@
+//////////////////////////////////////////////////////////////////////////////////
+// Engineer: Demetri Kostas
+// Create Date: 11/22/2024 02:15:19 PM
+// Module Name: bcd_doubleDabble
+// Project Name: Multiplier
+// Revision:
+// Revision 0.01 - File Created
+//////////////////////////////////////////////////////////////////////////////////
 module bcd_doubleDabble(clk, en_in, bin, bcd, bcd_en);
     input clk, en_in;
     input [11:0] bin;
